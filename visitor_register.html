@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Global Village 2k24</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <!-- Adjust the path as needed -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./index_files/jquery.countdown.min.js"></script>
+    <!-- Adjust the path as needed -->
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="./index_files/favicon.ico" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/" rel="preconnect" />
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="" />
+
+    <!-- Vendor CSS Files -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet" />
+    <link href="./index_files/bootstrap-icons.css" rel="stylesheet" />
+    <link href="./index_files/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="./index_files/glightbox.min.css" rel="stylesheet" />
+    <link href="./index_files/stlye.css" rel="stylesheet" />
+    <link href="./index_files/register.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="./index_files/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+  </head>
+
+  <body
+    class="index-page"
+    data-aos-easing="ease-in-out"
+    data-aos-duration="600"
+    data-aos-delay="0"
+  >
+    <header
+      id="header"
+      class="header d-flex align-items-center fixed-top"
+      style="background-color: #037ef3"
+    >
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="./index.html"
+          class="logo d-flex align-items-center me-auto me-lg-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="./index_files/GLOBAL VILLAGE LOGO.png" alt="" />
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="./register.html" class="active">Register</a></li>
+            <li>
+              <a href="./index.html#hero" class="">Home<br /></a>
+            </li>
+            <li><a href="./index.html#about" class="">About</a></li>
+            <li><a href="./index.html#services" class="">Agenda</a></li>
+          </ul>
+          <svg
+            class="mobile-nav-toggle d-xl-none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="home-about-section contactPage">
+        <div
+          class="section-title reg-success text-center"
+          style="display: none"
+          id="success-msg"
+        >
+          <h3 class="regtitle-success">Registration successful!</h3>
+          <p class="reg-subtitle">See you there ❤️‍🔥</p>
+        </div>
+        <div id="regform">
+          <div class="section-title regtitle text-center">
+            <h1 class="regtitle">Register as a Visitor</h1>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 form">
+                <form
+                  id="registrationForm"
+                  method="POST"
+                  action="https://script.google.com/macros/s/AKfycbynlkt9bDHEPPLTNXiVfXa9p9Z09FvrTSv4FP-940eoawfeksqeDffM-JIipHEwzYlxgg/exec"
+                >
+                <input type="hidden" name="type" value="visitor" />
+                  <div class="form-group" style="display: none">
+                    <input
+                      type="text"
+                      id="code"
+                      name="Code"
+                      class="forminput"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="fullname"><strong>Full Name:</strong></label>
+                    <input
+                      type="text"
+                      id="fullname"
+                      name="Full Name"
+                      class="forminput"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email"><strong>Email:</strong></label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="Email"
+                      class="forminput"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone"><strong>Phone Number:</strong></label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="Phone Number"
+                      class="forminput"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="fullname"><strong>uni:</strong></label>
+                    <input
+                      type="text"
+                      id="university"
+                      name="University"
+                      class="forminput"
+                      required
+                    />
+                  </div>
+                  <div style="display: none" class="form-group">
+                    <label for="nationality"
+                      ><strong>Nationality:</strong></label
+                    >
+                    <input
+                      type="text"
+                      id="nationality"
+                      name="Nationality"
+                      class="forminput"
+                      required
+                      value="Tunisian"
+                    />
+                  </div>
+                  <div style="display: none" class="form-group">
+                    <label for="description"
+                      ><strong
+                        >Describe how you will represent your culture:</strong
+                      ></label
+                    >
+                    <textarea
+                      type="text-area"
+                      id="description"
+                      name="Description"
+                      class="forminput"
+                      required
+                    >
+This user is a visitor</textarea
+                    >
+                  </div>
+                  <div class="form-group">
+                    <label>
+                      <input type="checkbox" id="agree"  />
+                      Do you agree to share your data with us and our partners?
+                    </label>
+                  </div>
+                  <div class="text-center">
+                    <input type="submit" value="Submit" class="submit" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+              <a class="logo d-flex align-items-center">
+                <span class="sitename">AIESEC in Tunisia - Manouba</span>
+              </a>
+
+              <div class="social-links d-flex mt-4">
+                <a href="https://www.facebook.com/AIESEC.Tunisia"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-facebook"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                    />
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/global.village.medina/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                    />
+                  </svg>
+                  <a href="#hero"> Home</a>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                    />
+                  </svg>
+                  <a href="#about">Description</a>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                    />
+                  </svg>
+                  <a href="#services"> About us </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="file:///C:/Users/maram/Downloads/Gp/Gp/index.html#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="white"
+        class="bi bi-arrow-up"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
+        />
+      </svg>
+    </a>
+
+    <!-- Preloader -->
+    <script>
+      const form = document.getElementById("registrationForm");
+      const formElements = form.elements;
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const randomNumber = Math.floor(Math.random() * 10000); // Adjust range as needed
+        const visitorCode = "Visitor-" + randomNumber;
+        // Set the generated visitor code to the hidden input field
+        const codeInput = document.getElementById("code");
+        codeInput.value = visitorCode;
+        // Log the code to ensure it's set correctly
+        const data = new FormData(form);
+        const action = event.target.action;
+        for (const element of formElements) {
+          element.disabled = true;
+        }
+        fetch(action, {
+          method: "POST",
+          body: data,
+        })
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            return response.json(); // or response.text() if the server returns plain text
+          })
+          .then((data) => {
+            document.getElementById("success-msg").style.display = "block";
+            document.getElementById("regform").style.display = "none";
+            setTimeout(() => {
+              window.location.href = "./index.html";
+            }, 3000);
+          })
+          .catch((error) => {
+            console.error(
+              "There was a problem with the fetch operation:",
+              error
+            );
+            alert(
+              "There was an error with the registration. Please try again."
+            );
+          });
+      });
+    </script>
+    <!-- Vendor JS Files -->
+    <script src="./index_files/bootstrap.bundle.min.js.téléchargement"></script>
+    <script src="./index_files/validate.js.téléchargement"></script>
+    <script src="./index_files/aos.js.téléchargement"></script>
+    <script src="./index_files/swiper-bundle.min.js.téléchargement"></script>
+    <script src="./index_files/glightbox.min.js.téléchargement"></script>
+    <script src="./index_files/imagesloaded.pkgd.min.js.téléchargement"></script>
+    <script src="./index_files/isotope.pkgd.min.js.téléchargement"></script>
+    <script src="./index_files/purecounter_vanilla.js.téléchargement"></script>
+    <script src="./index_files/jquery.countdown.min.js"></script>
+
+    <script src="./index_files/main(1).js.téléchargement"></script>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+.contactPage {
+  margin-top: 120px;
+}
+
+.reg-subtitle {
+  font-size: 30px !important;
+}
+
+#success-msg {
+  padding: 10% 10%;
+}
+
+.regtitle-success {
+  font-size: 50px !important;
+  font-weight: 600;
+}
+
+.regtitle-q {
+  font-size: 70px;
+  font-weight: bold;
+}
+@media (max-width: 762px) {
+  #success-msg {
+    padding: 40% 10%;
+  }
+  .regtitle-q {
+    font-size: 40px;
+  }
+  .regtitle-success {
+    font-size: 30px;
+  }
+  .flip-card {
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+}
+.hidden {
+  display: none;
+}
+
+.disabled {
+  background-color: #ccc !important; /* Gray background */
+  color: #666 !important; /* Gray text color */
+  cursor: not-allowed !important; /* Change cursor to indicate it's disabled */
+}
+
+.regtitle {
+  font-size: 80px;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contactPage .form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contactPage .form .form-group {
+  margin-bottom: 20px;
+}
+
+.contactPage label {
+  font-size: 20px;
+}
+
+.contactPage .forminput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+}
+
+.submit {
+  width: 50%;
+  padding: 15px;
+  background-color: #037ef3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.submit:disabled {
+  background-color: #7c7c7c;
+  color: #fff;
+}
+
+.submit:disabled:hover {
+  background-color: #7c7c7c;
+  color: #fff;
+}
+
+.submit:hover {
+  background-color: #025bb7;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #888;
+}
+
+/** Card styling **/
+.flip-card {
+  background-color: transparent;
+  width: 190px;
+  height: 254px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
+
+.register-btn {
+  width: 70%;
+  padding: 15px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.register-btn:hover {
+  color: #fc3b25;
+  text-decoration: underline;
+}
+
+.title-card {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background: linear-gradient(
+    120deg,
+    rgba(3, 126, 243, 1) 0%,
+    rgba(75, 160, 241, 1) 41%,
+    rgba(149, 191, 230, 1) 81%
+  );
+  color: white;
+}
+
+.flip-card-back {
+  background: linear-gradient(
+    120deg,
+    rgba(3, 126, 243, 1) 0%,
+    rgba(75, 160, 241, 1) 41%,
+    rgba(149, 191, 230, 1) 81%
+  );
+  color: white;
+  transform: rotateY(180deg);
+}
