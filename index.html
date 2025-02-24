@@ -127,15 +127,14 @@
       </section>
       <!-- /Hero Section -->
 
-      <!-- Counter Section-->
-      <!-- <section class="counter-section bg-gradient">
+      <!-- Counter Section--> <section class="counter-section bg-gradient">
         <div
           class="container section-title aos-init aos-animate"
           data-aos="fade-up"
         >
           <h2>Keep track of the date</h2>
           <p>Countdown until the event</p>
-          <h3 class="date">10th Of August 2024 at 5 PM</h3>
+          <h3 class="date">On the 26th of February, 2025, at 1 PM</h3>
         </div>
         <div class="container">
           <div class="row">
@@ -161,7 +160,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section> 
       <!--End counter section-->
       <!-- About Section -->
       <section id="about" class="about section">
@@ -880,7 +879,7 @@
     <script>
       $(document).ready(function () {
         // Set the target date for the countdown
-        var targetDate = new Date("2024-08-10T17:00:00"); // Example date: September 20, 2024, 9:00 AM
+        var targetDate = new Date("2025-02-26T13:00:00"); 
 
         $("#countdown").countdown(targetDate, function (event) {
           $(this).find(".days").html(event.strftime("%D"));
